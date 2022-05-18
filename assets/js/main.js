@@ -2,7 +2,7 @@
 // Arrays : Erstelle arrays 
 
 
-let adresse = ['Birkenstraße', '72144', 'Dußlingen', 'Baden-Württemberg'];
+let adresse = ['Straße', '32432', 'Dort', 'Baden-Württemberg'];
 // console.log(adresse);
 // console.log(adresse[0])
 
