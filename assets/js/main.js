@@ -94,7 +94,115 @@ let totalSongs = songs.push("Sweet Child O'Mine");
 let besteFussballerAllerZeiten = ["CR7", "Messi", "Pele", "Maradonna", "Zidane"];
 // console.log(besteFussballerAllerZeiten);
 let besteFussballerEver = besteFussballerAllerZeiten.push("Kahn", "Casillas", "Koepke");
-// console.log(besteFussballerEver);
+// console.log(besteFussballerAllerZeiten);
 
 
 // lev1_5_2: push() arrays in array
+
+let heroUndEnemy = [["Batman", "Joker"], ["ProfX", "Magneto"], ["Thor", "Loki"]];
+// console.log(heroUndEnemy);
+heroUndEnemy.push(["Superman", "Lex Luthor"]);
+heroUndEnemy.push(["Wolverine", "Sabretooth"]);
+heroUndEnemy.push(["Ghost Rider", "Mephisto"]);
+// console.log(heroUndEnemy);
+
+
+
+// lev1_6: Arrays pop()
+// console.log(songs);
+// console.log(let entfernterSong = songs.pop());
+// console.log(entfernterSong, songs);
+
+// console.log(besteFussballerAllerZeiten);
+// let entfernterFussballer = besteFussballerAllerZeiten.pop();
+// console.log(entfernterFussballer, besteFussballerAllerZeiten);
+
+// besteFussballerAllerZeiten.pop();
+// console.log(besteFussballerAllerZeiten);
+// besteFussballerAllerZeiten.pop();
+// console.log(besteFussballerAllerZeiten);
+// besteFussballerAllerZeiten.pop();
+// console.log(besteFussballerAllerZeiten);
+
+
+// lev1_7: Arrays unshift()
+
+let deutscheGerichte = ["Speckkuchen", "Thüringer Rostbratwurst", "Quarkkeulchen", "Sauerbraten"];
+// console.log(deutscheGerichte);
+
+
+deutscheGerichte.unshift("Sauerkraut", "Pork Knuckle", "deutsche Würste", "Bratwurst", "Kackwurst");
+// console.log(deutscheGerichte);
+
+
+
+// lev1_8: Arrays shift()
+
+// console.log(deutscheGerichte);
+deutscheGerichte.shift();
+deutscheGerichte.shift();
+deutscheGerichte.shift();
+let nichtGut = deutscheGerichte;
+// console.log(nichtGut);
+// deutscheGerichte.shift("Pork Knuckle");
+// deutscheGerichte.shift("deutsche Würste");
+
+
+// lev1_9: Push Pop Shift Unshift Difference
+
+const myArray = [23, 54, 75];
+console.log(myArray);
+
+myArray.push(1, 2, 3, 4, 5);
+console.log(myArray);
+
+myArray.unshift(6, 7, 8, 9, 10);
+console.log(myArray);
+
+myArray.pop();
+myArray.pop();
+console.log(myArray);
+
+myArray.shift();
+myArray.shift();
+console.log(myArray);
+
+
+
+// lev1_12: Arrays slice()
+
+console.log(myArray);
+let newArray = myArray.slice(0, 4);
+console.log(newArray);
+
+
+let array = [
+    "imageTeilnehmer000supercode.jpg",
+    "imageTeilnehmer001supercode.jpg",
+    "imageTeilnehmer002supercode.jpg",
+    "imageTeilnehmer003supercode.jpg",
+    "imageTeilnehmer004supercode.jpg",
+    "imageTeilnehmer005supercode.jpg",
+    "imageTeilnehmer006supercode.jpg",
+    "imageTeilnehmer007supercode.jpg",
+    "imageTeilnehmer008supercode.jpg",
+    "imageTeilnehmer009supercode.jpg",
+    "imageTeilnehmer010supercode.jpg",
+    "imageTeilnehmer011supercode.jpg",
+    "imageTeilnehmer012supercode.jpg",
+    "imageTeilnehmer013supercode.jpg",
+    "imageTeilnehmer014supercode.jpg",
+    "imageTeilnehmer015supercode.jpg",
+    "imageTeilnehmer016supercode.jpg",
+    "imageTeilnehmer017supercode.jpg",
+    "imageTeilnehmer018supercode.jpg",
+    "imageTeilnehmer019supercode.jpg"
+];
+
+console.log(array);
+let copyImg1 = array.slice(7, 15);
+console.log(copyImg1);
+console.log(array);
+
+let copyImg2 = array.slice(6, 12);
+console.log(copyImg2);
